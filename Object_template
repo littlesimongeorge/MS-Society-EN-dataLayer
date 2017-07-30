@@ -1,0 +1,9 @@
+// Object to be placed in html wrapper
+function gaObject (event, title, url, eventCat, eventAct, eventLab) {
+    this.event = event;
+    this.page_title = title;
+    this.page_url = url;
+    this.eventCategory = eventCat;
+    this.eventAction = eventAct;
+    this.eventLabel = eventLab;
+}
